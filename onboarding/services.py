@@ -32,6 +32,8 @@ def _validate(payload, qmap):
                     errors[code] = "This field is required."
             elif val not in valid:
                 errors[code] = f"'{val}' is not a valid option."
+            elif q.has_other and val == "other" and not str(payload.get(f"{code}_other", "")).strip():
+                errors[f"{code}_other"] = "Please specify."
         elif q.type in CHOICE_MULTI:
             lst = val if isinstance(val, list) else []
             valid = {o.code for o in q.options.all()}
@@ -117,7 +119,12 @@ def create_submission(payload):
                 ))
         elif q.type in CHOICE_SINGLE:
             if val:
-                rows.append(Answer(submission=submission, question_code=code, option_code=val))
+                rows.append(Answer(
+                    submission=submission,
+                    question_code=code,
+                    option_code=val,
+                    other_text=str(payload.get(f"{code}_other", "")).strip() if (q.has_other and val == "other") else "",
+                ))
         else:
             s = val.strip() if isinstance(val, str) else ""
             if s:

@@ -103,7 +103,7 @@
       "max_select": null,
       "has_other": false,
       "label_en": "Where you are mostly based",
-      "label_ar": "أين مقرّك في الغالب",
+      "label_ar": "أين متواجد في الغالب",
       "help_en": "",
       "help_ar": "",
       "options": []
@@ -1377,7 +1377,7 @@
       "order": 9,
       "required": true,
       "max_select": null,
-      "has_other": false,
+      "has_other": true,
       "label_en": "Which best describes you today",
       "label_ar": "ما الذي يصفك اليوم",
       "help_en": "Choose any that apply.",
@@ -1411,7 +1411,7 @@
           "code": "former_exec",
           "order": 4,
           "label_en": "A former executive, now advising or investing",
-          "label_ar": "تنفيذي سابق، يعمل الآن في الاستشارة أو الاستثمار"
+          "label_ar": "تنفيذي سابق، تعمل الآن كمستشار"
         },
         {
           "code": "prof_services",
@@ -1429,13 +1429,19 @@
           "code": "investor",
           "order": 7,
           "label_en": "An investor, fund manager or family-office principal",
-          "label_ar": "مستثمر أو مدير صندوق أو مسؤول مكتب عائلي"
+          "label_ar": "مستثمر أو مدير صندوق"
         },
         {
           "code": "independent_authority",
           "order": 8,
           "label_en": "An independent advisor or recognised sector authority",
           "label_ar": "مستشار مستقل أو مرجع قطاعي معروف"
+        },
+        {
+          "code": "other",
+          "order": 9,
+          "label_en": "Other (please specify)",
+          "label_ar": "أخرى (يرجى التحديد)"
         }
       ]
     },
@@ -1446,7 +1452,7 @@
       "order": 10,
       "required": true,
       "max_select": null,
-      "has_other": false,
+      "has_other": true,
       "label_en": "The highest level of seniority you have reached",
       "label_ar": "أعلى منصب وصلت إليه",
       "help_en": "",
@@ -1493,6 +1499,12 @@
           "order": 6,
           "label_en": "Senior Director or Head of function",
           "label_ar": "مدير أول أو رئيس إدارة"
+        },
+        {
+          "code": "other",
+          "order": 7,
+          "label_en": "Other (please specify)",
+          "label_ar": "أخرى (يرجى التحديد)"
         }
       ]
     },
@@ -1527,7 +1539,7 @@
           "code": "within",
           "order": 0,
           "label_en": "Within an institution",
-          "label_ar": "ضمن مؤسسة"
+          "label_ar": "ضمن منشأة"
         },
         {
           "code": "independent",
@@ -1546,7 +1558,7 @@
       "max_select": null,
       "has_other": false,
       "label_en": "Your institution",
-      "label_ar": "مؤسستك",
+      "label_ar": "منشأتك الحالية",
       "help_en": "",
       "help_ar": "",
       "options": []
@@ -1602,12 +1614,12 @@
       "screen": "expertise",
       "order": 15,
       "required": true,
-      "max_select": 4,
+      "max_select": 6,
       "has_other": true,
       "label_en": "Your principal areas of expertise",
       "label_ar": "أبرز مجالات خبرتك",
-      "help_en": "Choose up to four.",
-      "help_ar": "اختر حتى أربعة.",
+      "help_en": "Choose up to six.",
+      "help_ar": "اختر حتى ستة.",
       "options": [
         {
           "code": "strategy_growth",
@@ -2144,7 +2156,7 @@
           "code": "peers",
           "order": 4,
           "label_en": "The company of a selective circle of peers",
-          "label_ar": "صحبة نخبة من النظراء"
+          "label_ar": "الانضمام إلى مجتمع من القادة والخبراء"
         },
         {
           "code": "recognition",
