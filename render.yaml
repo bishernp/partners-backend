@@ -1,0 +1,41 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Render Blueprint — partners-backend repo (Django API + PostgreSQL).
+# Optional: create both from Render → "Blueprints", or configure manually
+# (see DEPLOY.md). Values marked `sync: false` are filled in the dashboard.
+# ─────────────────────────────────────────────────────────────────────────────
+databases:
+  - name: bnp-partners-db
+    databaseName: bnp_partners
+    user: bnp_partners
+    plan: free            # upgrade for production durability
+    region: frankfurt     # pick the region closest to your users
+
+services:
+  - type: web
+    runtime: python
+    name: bnp-partners-backend
+    region: frankfurt     # MUST match the database region
+    plan: free            # free spins down when idle; "starter"+ for always-on
+    rootDir: .            # this repo *is* the backend
+    buildCommand: "pip install -r requirements.txt && python manage.py collectstatic --no-input && python manage.py migrate && python manage.py seed_catalog"
+    startCommand: "gunicorn config.wsgi:application --bind 0.0.0.0:$PORT"
+    healthCheckPath: /healthz
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.13.8"
+      - key: DEBUG
+        value: "false"
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        fromDatabase:
+          name: bnp-partners-db
+          property: connectionString
+      - key: FRONTEND_ORIGIN
+        value: https://partners.bishernp.com
+      - key: CORS_ALLOWED_ORIGINS
+        sync: false        # set: https://partners.bishernp.com
+      - key: CSRF_TRUSTED_ORIGINS
+        sync: false        # set: https://<this-service>.onrender.com
+      - key: ALLOWED_HOSTS
+        sync: false        # optional; *.onrender.com is trusted automatically

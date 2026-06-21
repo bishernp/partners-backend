@@ -1,0 +1,2352 @@
+{
+  "version": "2026-06-21",
+  "questions": [
+    {
+      "code": "full_name",
+      "type": "text",
+      "screen": "details",
+      "order": 1,
+      "required": true,
+      "max_select": null,
+      "has_other": false,
+      "label_en": "Full name",
+      "label_ar": "الاسم الكامل",
+      "help_en": "",
+      "help_ar": "",
+      "options": []
+    },
+    {
+      "code": "honorific",
+      "type": "select",
+      "screen": "details",
+      "order": 2,
+      "required": true,
+      "max_select": null,
+      "has_other": false,
+      "label_en": "How you prefer to be addressed",
+      "label_ar": "كيف تفضّل أن نخاطبك",
+      "help_en": "",
+      "help_ar": "",
+      "options": [
+        {
+          "code": "excellency",
+          "order": 0,
+          "label_en": "Excellency",
+          "label_ar": "معالي"
+        },
+        {
+          "code": "prof",
+          "order": 1,
+          "label_en": "Prof.",
+          "label_ar": "أ.د."
+        },
+        {
+          "code": "dr",
+          "order": 2,
+          "label_en": "Dr.",
+          "label_ar": "د."
+        },
+        {
+          "code": "eng",
+          "order": 3,
+          "label_en": "Eng.",
+          "label_ar": "م."
+        },
+        {
+          "code": "mr",
+          "order": 4,
+          "label_en": "Mr.",
+          "label_ar": "السيد"
+        },
+        {
+          "code": "ms",
+          "order": 5,
+          "label_en": "Ms.",
+          "label_ar": "السيدة"
+        }
+      ]
+    },
+    {
+      "code": "email",
+      "type": "email",
+      "screen": "details",
+      "order": 3,
+      "required": true,
+      "max_select": null,
+      "has_other": false,
+      "label_en": "Email",
+      "label_ar": "البريد الإلكتروني",
+      "help_en": "",
+      "help_ar": "",
+      "options": []
+    },
+    {
+      "code": "mobile",
+      "type": "tel",
+      "screen": "details",
+      "order": 4,
+      "required": true,
+      "max_select": null,
+      "has_other": false,
+      "label_en": "Mobile number",
+      "label_ar": "رقم الجوال",
+      "help_en": "",
+      "help_ar": "",
+      "options": []
+    },
+    {
+      "code": "based_in",
+      "type": "text",
+      "screen": "details",
+      "order": 5,
+      "required": true,
+      "max_select": null,
+      "has_other": false,
+      "label_en": "Where you are mostly based",
+      "label_ar": "أين مقرّك في الغالب",
+      "help_en": "",
+      "help_ar": "",
+      "options": []
+    },
+    {
+      "code": "nationality",
+      "type": "country",
+      "screen": "details",
+      "order": 6,
+      "required": true,
+      "max_select": null,
+      "has_other": false,
+      "label_en": "Nationality",
+      "label_ar": "الجنسية",
+      "help_en": "",
+      "help_ar": "",
+      "options": [
+        {
+          "code": "AF",
+          "order": 0,
+          "label_en": "Afghanistan",
+          "label_ar": "أفغانستان"
+        },
+        {
+          "code": "AL",
+          "order": 1,
+          "label_en": "Albania",
+          "label_ar": "ألبانيا"
+        },
+        {
+          "code": "DZ",
+          "order": 2,
+          "label_en": "Algeria",
+          "label_ar": "الجزائر"
+        },
+        {
+          "code": "AD",
+          "order": 3,
+          "label_en": "Andorra",
+          "label_ar": "أندورا"
+        },
+        {
+          "code": "AO",
+          "order": 4,
+          "label_en": "Angola",
+          "label_ar": "أنغولا"
+        },
+        {
+          "code": "AG",
+          "order": 5,
+          "label_en": "Antigua & Barbuda",
+          "label_ar": "أنتيغوا وبربودا"
+        },
+        {
+          "code": "AR",
+          "order": 6,
+          "label_en": "Argentina",
+          "label_ar": "الأرجنتين"
+        },
+        {
+          "code": "AM",
+          "order": 7,
+          "label_en": "Armenia",
+          "label_ar": "أرمينيا"
+        },
+        {
+          "code": "AU",
+          "order": 8,
+          "label_en": "Australia",
+          "label_ar": "أستراليا"
+        },
+        {
+          "code": "AT",
+          "order": 9,
+          "label_en": "Austria",
+          "label_ar": "النمسا"
+        },
+        {
+          "code": "AZ",
+          "order": 10,
+          "label_en": "Azerbaijan",
+          "label_ar": "أذربيجان"
+        },
+        {
+          "code": "BS",
+          "order": 11,
+          "label_en": "Bahamas",
+          "label_ar": "جزر البهاما"
+        },
+        {
+          "code": "BH",
+          "order": 12,
+          "label_en": "Bahrain",
+          "label_ar": "البحرين"
+        },
+        {
+          "code": "BD",
+          "order": 13,
+          "label_en": "Bangladesh",
+          "label_ar": "بنغلاديش"
+        },
+        {
+          "code": "BB",
+          "order": 14,
+          "label_en": "Barbados",
+          "label_ar": "بربادوس"
+        },
+        {
+          "code": "BY",
+          "order": 15,
+          "label_en": "Belarus",
+          "label_ar": "بيلاروس"
+        },
+        {
+          "code": "BE",
+          "order": 16,
+          "label_en": "Belgium",
+          "label_ar": "بلجيكا"
+        },
+        {
+          "code": "BZ",
+          "order": 17,
+          "label_en": "Belize",
+          "label_ar": "بليز"
+        },
+        {
+          "code": "BJ",
+          "order": 18,
+          "label_en": "Benin",
+          "label_ar": "بنين"
+        },
+        {
+          "code": "BT",
+          "order": 19,
+          "label_en": "Bhutan",
+          "label_ar": "بوتان"
+        },
+        {
+          "code": "BO",
+          "order": 20,
+          "label_en": "Bolivia",
+          "label_ar": "بوليفيا"
+        },
+        {
+          "code": "BA",
+          "order": 21,
+          "label_en": "Bosnia & Herzegovina",
+          "label_ar": "البوسنة والهرسك"
+        },
+        {
+          "code": "BW",
+          "order": 22,
+          "label_en": "Botswana",
+          "label_ar": "بوتسوانا"
+        },
+        {
+          "code": "BR",
+          "order": 23,
+          "label_en": "Brazil",
+          "label_ar": "البرازيل"
+        },
+        {
+          "code": "BN",
+          "order": 24,
+          "label_en": "Brunei",
+          "label_ar": "بروناي"
+        },
+        {
+          "code": "BG",
+          "order": 25,
+          "label_en": "Bulgaria",
+          "label_ar": "بلغاريا"
+        },
+        {
+          "code": "BF",
+          "order": 26,
+          "label_en": "Burkina Faso",
+          "label_ar": "بوركينا فاسو"
+        },
+        {
+          "code": "BI",
+          "order": 27,
+          "label_en": "Burundi",
+          "label_ar": "بوروندي"
+        },
+        {
+          "code": "KH",
+          "order": 28,
+          "label_en": "Cambodia",
+          "label_ar": "كمبوديا"
+        },
+        {
+          "code": "CM",
+          "order": 29,
+          "label_en": "Cameroon",
+          "label_ar": "الكاميرون"
+        },
+        {
+          "code": "CA",
+          "order": 30,
+          "label_en": "Canada",
+          "label_ar": "كندا"
+        },
+        {
+          "code": "CV",
+          "order": 31,
+          "label_en": "Cape Verde",
+          "label_ar": "الرأس الأخضر"
+        },
+        {
+          "code": "CF",
+          "order": 32,
+          "label_en": "Central African Republic",
+          "label_ar": "جمهورية أفريقيا الوسطى"
+        },
+        {
+          "code": "TD",
+          "order": 33,
+          "label_en": "Chad",
+          "label_ar": "تشاد"
+        },
+        {
+          "code": "CL",
+          "order": 34,
+          "label_en": "Chile",
+          "label_ar": "تشيلي"
+        },
+        {
+          "code": "CN",
+          "order": 35,
+          "label_en": "China",
+          "label_ar": "الصين"
+        },
+        {
+          "code": "CO",
+          "order": 36,
+          "label_en": "Colombia",
+          "label_ar": "كولومبيا"
+        },
+        {
+          "code": "KM",
+          "order": 37,
+          "label_en": "Comoros",
+          "label_ar": "جزر القمر"
+        },
+        {
+          "code": "CG",
+          "order": 38,
+          "label_en": "Congo - Brazzaville",
+          "label_ar": "الكونغو - برازافيل"
+        },
+        {
+          "code": "CD",
+          "order": 39,
+          "label_en": "Congo - Kinshasa",
+          "label_ar": "الكونغو - كينشاسا"
+        },
+        {
+          "code": "CR",
+          "order": 40,
+          "label_en": "Costa Rica",
+          "label_ar": "كوستاريكا"
+        },
+        {
+          "code": "CI",
+          "order": 41,
+          "label_en": "Côte d’Ivoire",
+          "label_ar": "ساحل العاج"
+        },
+        {
+          "code": "HR",
+          "order": 42,
+          "label_en": "Croatia",
+          "label_ar": "كرواتيا"
+        },
+        {
+          "code": "CU",
+          "order": 43,
+          "label_en": "Cuba",
+          "label_ar": "كوبا"
+        },
+        {
+          "code": "CY",
+          "order": 44,
+          "label_en": "Cyprus",
+          "label_ar": "قبرص"
+        },
+        {
+          "code": "CZ",
+          "order": 45,
+          "label_en": "Czechia",
+          "label_ar": "التشيك"
+        },
+        {
+          "code": "DK",
+          "order": 46,
+          "label_en": "Denmark",
+          "label_ar": "الدانمرك"
+        },
+        {
+          "code": "DJ",
+          "order": 47,
+          "label_en": "Djibouti",
+          "label_ar": "جيبوتي"
+        },
+        {
+          "code": "DM",
+          "order": 48,
+          "label_en": "Dominica",
+          "label_ar": "دومينيكا"
+        },
+        {
+          "code": "DO",
+          "order": 49,
+          "label_en": "Dominican Republic",
+          "label_ar": "جمهورية الدومينيكان"
+        },
+        {
+          "code": "EC",
+          "order": 50,
+          "label_en": "Ecuador",
+          "label_ar": "الإكوادور"
+        },
+        {
+          "code": "EG",
+          "order": 51,
+          "label_en": "Egypt",
+          "label_ar": "مصر"
+        },
+        {
+          "code": "SV",
+          "order": 52,
+          "label_en": "El Salvador",
+          "label_ar": "السلفادور"
+        },
+        {
+          "code": "GQ",
+          "order": 53,
+          "label_en": "Equatorial Guinea",
+          "label_ar": "غينيا الاستوائية"
+        },
+        {
+          "code": "ER",
+          "order": 54,
+          "label_en": "Eritrea",
+          "label_ar": "إريتريا"
+        },
+        {
+          "code": "EE",
+          "order": 55,
+          "label_en": "Estonia",
+          "label_ar": "إستونيا"
+        },
+        {
+          "code": "SZ",
+          "order": 56,
+          "label_en": "Eswatini",
+          "label_ar": "إسواتيني"
+        },
+        {
+          "code": "ET",
+          "order": 57,
+          "label_en": "Ethiopia",
+          "label_ar": "إثيوبيا"
+        },
+        {
+          "code": "FJ",
+          "order": 58,
+          "label_en": "Fiji",
+          "label_ar": "فيجي"
+        },
+        {
+          "code": "FI",
+          "order": 59,
+          "label_en": "Finland",
+          "label_ar": "فنلندا"
+        },
+        {
+          "code": "FR",
+          "order": 60,
+          "label_en": "France",
+          "label_ar": "فرنسا"
+        },
+        {
+          "code": "GA",
+          "order": 61,
+          "label_en": "Gabon",
+          "label_ar": "الغابون"
+        },
+        {
+          "code": "GM",
+          "order": 62,
+          "label_en": "Gambia",
+          "label_ar": "غامبيا"
+        },
+        {
+          "code": "GE",
+          "order": 63,
+          "label_en": "Georgia",
+          "label_ar": "جورجيا"
+        },
+        {
+          "code": "DE",
+          "order": 64,
+          "label_en": "Germany",
+          "label_ar": "ألمانيا"
+        },
+        {
+          "code": "GH",
+          "order": 65,
+          "label_en": "Ghana",
+          "label_ar": "غانا"
+        },
+        {
+          "code": "GR",
+          "order": 66,
+          "label_en": "Greece",
+          "label_ar": "اليونان"
+        },
+        {
+          "code": "GD",
+          "order": 67,
+          "label_en": "Grenada",
+          "label_ar": "غرينادا"
+        },
+        {
+          "code": "GT",
+          "order": 68,
+          "label_en": "Guatemala",
+          "label_ar": "غواتيمالا"
+        },
+        {
+          "code": "GN",
+          "order": 69,
+          "label_en": "Guinea",
+          "label_ar": "غينيا"
+        },
+        {
+          "code": "GW",
+          "order": 70,
+          "label_en": "Guinea-Bissau",
+          "label_ar": "غينيا بيساو"
+        },
+        {
+          "code": "GY",
+          "order": 71,
+          "label_en": "Guyana",
+          "label_ar": "غيانا"
+        },
+        {
+          "code": "HT",
+          "order": 72,
+          "label_en": "Haiti",
+          "label_ar": "هايتي"
+        },
+        {
+          "code": "HN",
+          "order": 73,
+          "label_en": "Honduras",
+          "label_ar": "هندوراس"
+        },
+        {
+          "code": "HK",
+          "order": 74,
+          "label_en": "Hong Kong SAR China",
+          "label_ar": "هونغ كونغ الصينية (منطقة إدارية خاصة)"
+        },
+        {
+          "code": "HU",
+          "order": 75,
+          "label_en": "Hungary",
+          "label_ar": "هنغاريا"
+        },
+        {
+          "code": "IS",
+          "order": 76,
+          "label_en": "Iceland",
+          "label_ar": "آيسلندا"
+        },
+        {
+          "code": "IN",
+          "order": 77,
+          "label_en": "India",
+          "label_ar": "الهند"
+        },
+        {
+          "code": "ID",
+          "order": 78,
+          "label_en": "Indonesia",
+          "label_ar": "إندونيسيا"
+        },
+        {
+          "code": "IR",
+          "order": 79,
+          "label_en": "Iran",
+          "label_ar": "إيران"
+        },
+        {
+          "code": "IQ",
+          "order": 80,
+          "label_en": "Iraq",
+          "label_ar": "العراق"
+        },
+        {
+          "code": "IE",
+          "order": 81,
+          "label_en": "Ireland",
+          "label_ar": "أيرلندا"
+        },
+        {
+          "code": "IL",
+          "order": 82,
+          "label_en": "Israel",
+          "label_ar": "إسرائيل"
+        },
+        {
+          "code": "IT",
+          "order": 83,
+          "label_en": "Italy",
+          "label_ar": "إيطاليا"
+        },
+        {
+          "code": "JM",
+          "order": 84,
+          "label_en": "Jamaica",
+          "label_ar": "جامايكا"
+        },
+        {
+          "code": "JP",
+          "order": 85,
+          "label_en": "Japan",
+          "label_ar": "اليابان"
+        },
+        {
+          "code": "JO",
+          "order": 86,
+          "label_en": "Jordan",
+          "label_ar": "الأردن"
+        },
+        {
+          "code": "KZ",
+          "order": 87,
+          "label_en": "Kazakhstan",
+          "label_ar": "كازاخستان"
+        },
+        {
+          "code": "KE",
+          "order": 88,
+          "label_en": "Kenya",
+          "label_ar": "كينيا"
+        },
+        {
+          "code": "KI",
+          "order": 89,
+          "label_en": "Kiribati",
+          "label_ar": "كيريباتي"
+        },
+        {
+          "code": "KW",
+          "order": 90,
+          "label_en": "Kuwait",
+          "label_ar": "الكويت"
+        },
+        {
+          "code": "KG",
+          "order": 91,
+          "label_en": "Kyrgyzstan",
+          "label_ar": "قيرغيزستان"
+        },
+        {
+          "code": "LA",
+          "order": 92,
+          "label_en": "Laos",
+          "label_ar": "لاوس"
+        },
+        {
+          "code": "LV",
+          "order": 93,
+          "label_en": "Latvia",
+          "label_ar": "لاتفيا"
+        },
+        {
+          "code": "LB",
+          "order": 94,
+          "label_en": "Lebanon",
+          "label_ar": "لبنان"
+        },
+        {
+          "code": "LS",
+          "order": 95,
+          "label_en": "Lesotho",
+          "label_ar": "ليسوتو"
+        },
+        {
+          "code": "LR",
+          "order": 96,
+          "label_en": "Liberia",
+          "label_ar": "ليبيريا"
+        },
+        {
+          "code": "LY",
+          "order": 97,
+          "label_en": "Libya",
+          "label_ar": "ليبيا"
+        },
+        {
+          "code": "LI",
+          "order": 98,
+          "label_en": "Liechtenstein",
+          "label_ar": "ليختنشتاين"
+        },
+        {
+          "code": "LT",
+          "order": 99,
+          "label_en": "Lithuania",
+          "label_ar": "ليتوانيا"
+        },
+        {
+          "code": "LU",
+          "order": 100,
+          "label_en": "Luxembourg",
+          "label_ar": "لوكسمبورغ"
+        },
+        {
+          "code": "MO",
+          "order": 101,
+          "label_en": "Macao SAR China",
+          "label_ar": "منطقة ماكاو الإدارية الخاصة"
+        },
+        {
+          "code": "MG",
+          "order": 102,
+          "label_en": "Madagascar",
+          "label_ar": "مدغشقر"
+        },
+        {
+          "code": "MW",
+          "order": 103,
+          "label_en": "Malawi",
+          "label_ar": "ملاوي"
+        },
+        {
+          "code": "MY",
+          "order": 104,
+          "label_en": "Malaysia",
+          "label_ar": "ماليزيا"
+        },
+        {
+          "code": "MV",
+          "order": 105,
+          "label_en": "Maldives",
+          "label_ar": "جزر المالديف"
+        },
+        {
+          "code": "ML",
+          "order": 106,
+          "label_en": "Mali",
+          "label_ar": "مالي"
+        },
+        {
+          "code": "MT",
+          "order": 107,
+          "label_en": "Malta",
+          "label_ar": "مالطا"
+        },
+        {
+          "code": "MH",
+          "order": 108,
+          "label_en": "Marshall Islands",
+          "label_ar": "جزر مارشال"
+        },
+        {
+          "code": "MR",
+          "order": 109,
+          "label_en": "Mauritania",
+          "label_ar": "موريتانيا"
+        },
+        {
+          "code": "MU",
+          "order": 110,
+          "label_en": "Mauritius",
+          "label_ar": "موريشيوس"
+        },
+        {
+          "code": "MX",
+          "order": 111,
+          "label_en": "Mexico",
+          "label_ar": "المكسيك"
+        },
+        {
+          "code": "FM",
+          "order": 112,
+          "label_en": "Micronesia",
+          "label_ar": "ميكرونيزيا"
+        },
+        {
+          "code": "MD",
+          "order": 113,
+          "label_en": "Moldova",
+          "label_ar": "مولدوفا"
+        },
+        {
+          "code": "MC",
+          "order": 114,
+          "label_en": "Monaco",
+          "label_ar": "موناكو"
+        },
+        {
+          "code": "MN",
+          "order": 115,
+          "label_en": "Mongolia",
+          "label_ar": "منغوليا"
+        },
+        {
+          "code": "ME",
+          "order": 116,
+          "label_en": "Montenegro",
+          "label_ar": "الجبل الأسود"
+        },
+        {
+          "code": "MA",
+          "order": 117,
+          "label_en": "Morocco",
+          "label_ar": "المغرب"
+        },
+        {
+          "code": "MZ",
+          "order": 118,
+          "label_en": "Mozambique",
+          "label_ar": "موزمبيق"
+        },
+        {
+          "code": "MM",
+          "order": 119,
+          "label_en": "Myanmar (Burma)",
+          "label_ar": "ميانمار (بورما)"
+        },
+        {
+          "code": "NA",
+          "order": 120,
+          "label_en": "Namibia",
+          "label_ar": "ناميبيا"
+        },
+        {
+          "code": "NR",
+          "order": 121,
+          "label_en": "Nauru",
+          "label_ar": "ناورو"
+        },
+        {
+          "code": "NP",
+          "order": 122,
+          "label_en": "Nepal",
+          "label_ar": "نيبال"
+        },
+        {
+          "code": "NL",
+          "order": 123,
+          "label_en": "Netherlands",
+          "label_ar": "هولندا"
+        },
+        {
+          "code": "NZ",
+          "order": 124,
+          "label_en": "New Zealand",
+          "label_ar": "نيوزيلندا"
+        },
+        {
+          "code": "NI",
+          "order": 125,
+          "label_en": "Nicaragua",
+          "label_ar": "نيكاراغوا"
+        },
+        {
+          "code": "NE",
+          "order": 126,
+          "label_en": "Niger",
+          "label_ar": "النيجر"
+        },
+        {
+          "code": "NG",
+          "order": 127,
+          "label_en": "Nigeria",
+          "label_ar": "نيجيريا"
+        },
+        {
+          "code": "KP",
+          "order": 128,
+          "label_en": "North Korea",
+          "label_ar": "كوريا الشمالية"
+        },
+        {
+          "code": "MK",
+          "order": 129,
+          "label_en": "North Macedonia",
+          "label_ar": "مقدونيا الشمالية"
+        },
+        {
+          "code": "NO",
+          "order": 130,
+          "label_en": "Norway",
+          "label_ar": "النرويج"
+        },
+        {
+          "code": "OM",
+          "order": 131,
+          "label_en": "Oman",
+          "label_ar": "عُمان"
+        },
+        {
+          "code": "PK",
+          "order": 132,
+          "label_en": "Pakistan",
+          "label_ar": "باكستان"
+        },
+        {
+          "code": "PW",
+          "order": 133,
+          "label_en": "Palau",
+          "label_ar": "بالاو"
+        },
+        {
+          "code": "PS",
+          "order": 134,
+          "label_en": "Palestinian Territories",
+          "label_ar": "الأراضي الفلسطينية"
+        },
+        {
+          "code": "PA",
+          "order": 135,
+          "label_en": "Panama",
+          "label_ar": "بنما"
+        },
+        {
+          "code": "PG",
+          "order": 136,
+          "label_en": "Papua New Guinea",
+          "label_ar": "بابوا غينيا الجديدة"
+        },
+        {
+          "code": "PY",
+          "order": 137,
+          "label_en": "Paraguay",
+          "label_ar": "باراغواي"
+        },
+        {
+          "code": "PE",
+          "order": 138,
+          "label_en": "Peru",
+          "label_ar": "بيرو"
+        },
+        {
+          "code": "PH",
+          "order": 139,
+          "label_en": "Philippines",
+          "label_ar": "الفلبين"
+        },
+        {
+          "code": "PL",
+          "order": 140,
+          "label_en": "Poland",
+          "label_ar": "بولندا"
+        },
+        {
+          "code": "PT",
+          "order": 141,
+          "label_en": "Portugal",
+          "label_ar": "البرتغال"
+        },
+        {
+          "code": "PR",
+          "order": 142,
+          "label_en": "Puerto Rico",
+          "label_ar": "بورتوريكو"
+        },
+        {
+          "code": "QA",
+          "order": 143,
+          "label_en": "Qatar",
+          "label_ar": "قطر"
+        },
+        {
+          "code": "RO",
+          "order": 144,
+          "label_en": "Romania",
+          "label_ar": "رومانيا"
+        },
+        {
+          "code": "RU",
+          "order": 145,
+          "label_en": "Russia",
+          "label_ar": "روسيا"
+        },
+        {
+          "code": "RW",
+          "order": 146,
+          "label_en": "Rwanda",
+          "label_ar": "رواندا"
+        },
+        {
+          "code": "WS",
+          "order": 147,
+          "label_en": "Samoa",
+          "label_ar": "ساموا"
+        },
+        {
+          "code": "SM",
+          "order": 148,
+          "label_en": "San Marino",
+          "label_ar": "سان مارينو"
+        },
+        {
+          "code": "ST",
+          "order": 149,
+          "label_en": "São Tomé & Príncipe",
+          "label_ar": "ساو تومي وبرينسيبي"
+        },
+        {
+          "code": "SA",
+          "order": 150,
+          "label_en": "Saudi Arabia",
+          "label_ar": "المملكة العربية السعودية"
+        },
+        {
+          "code": "SN",
+          "order": 151,
+          "label_en": "Senegal",
+          "label_ar": "السنغال"
+        },
+        {
+          "code": "RS",
+          "order": 152,
+          "label_en": "Serbia",
+          "label_ar": "صربيا"
+        },
+        {
+          "code": "SC",
+          "order": 153,
+          "label_en": "Seychelles",
+          "label_ar": "سيشل"
+        },
+        {
+          "code": "SL",
+          "order": 154,
+          "label_en": "Sierra Leone",
+          "label_ar": "سيراليون"
+        },
+        {
+          "code": "SG",
+          "order": 155,
+          "label_en": "Singapore",
+          "label_ar": "سنغافورة"
+        },
+        {
+          "code": "SK",
+          "order": 156,
+          "label_en": "Slovakia",
+          "label_ar": "سلوفاكيا"
+        },
+        {
+          "code": "SI",
+          "order": 157,
+          "label_en": "Slovenia",
+          "label_ar": "سلوفينيا"
+        },
+        {
+          "code": "SB",
+          "order": 158,
+          "label_en": "Solomon Islands",
+          "label_ar": "جزر سليمان"
+        },
+        {
+          "code": "SO",
+          "order": 159,
+          "label_en": "Somalia",
+          "label_ar": "الصومال"
+        },
+        {
+          "code": "ZA",
+          "order": 160,
+          "label_en": "South Africa",
+          "label_ar": "جنوب أفريقيا"
+        },
+        {
+          "code": "KR",
+          "order": 161,
+          "label_en": "South Korea",
+          "label_ar": "كوريا الجنوبية"
+        },
+        {
+          "code": "SS",
+          "order": 162,
+          "label_en": "South Sudan",
+          "label_ar": "جنوب السودان"
+        },
+        {
+          "code": "ES",
+          "order": 163,
+          "label_en": "Spain",
+          "label_ar": "إسبانيا"
+        },
+        {
+          "code": "LK",
+          "order": 164,
+          "label_en": "Sri Lanka",
+          "label_ar": "سريلانكا"
+        },
+        {
+          "code": "KN",
+          "order": 165,
+          "label_en": "St. Kitts & Nevis",
+          "label_ar": "سانت كيتس ونيفيس"
+        },
+        {
+          "code": "LC",
+          "order": 166,
+          "label_en": "St. Lucia",
+          "label_ar": "سانت لوسيا"
+        },
+        {
+          "code": "VC",
+          "order": 167,
+          "label_en": "St. Vincent & Grenadines",
+          "label_ar": "سانت فنسنت وجزر غرينادين"
+        },
+        {
+          "code": "SD",
+          "order": 168,
+          "label_en": "Sudan",
+          "label_ar": "السودان"
+        },
+        {
+          "code": "SR",
+          "order": 169,
+          "label_en": "Suriname",
+          "label_ar": "سورينام"
+        },
+        {
+          "code": "SE",
+          "order": 170,
+          "label_en": "Sweden",
+          "label_ar": "السويد"
+        },
+        {
+          "code": "CH",
+          "order": 171,
+          "label_en": "Switzerland",
+          "label_ar": "سويسرا"
+        },
+        {
+          "code": "SY",
+          "order": 172,
+          "label_en": "Syria",
+          "label_ar": "سوريا"
+        },
+        {
+          "code": "TW",
+          "order": 173,
+          "label_en": "Taiwan",
+          "label_ar": "تايوان"
+        },
+        {
+          "code": "TJ",
+          "order": 174,
+          "label_en": "Tajikistan",
+          "label_ar": "طاجيكستان"
+        },
+        {
+          "code": "TZ",
+          "order": 175,
+          "label_en": "Tanzania",
+          "label_ar": "تنزانيا"
+        },
+        {
+          "code": "TH",
+          "order": 176,
+          "label_en": "Thailand",
+          "label_ar": "تايلاند"
+        },
+        {
+          "code": "TL",
+          "order": 177,
+          "label_en": "Timor-Leste",
+          "label_ar": "تيمور - ليشتي"
+        },
+        {
+          "code": "TG",
+          "order": 178,
+          "label_en": "Togo",
+          "label_ar": "توغو"
+        },
+        {
+          "code": "TO",
+          "order": 179,
+          "label_en": "Tonga",
+          "label_ar": "تونغا"
+        },
+        {
+          "code": "TT",
+          "order": 180,
+          "label_en": "Trinidad & Tobago",
+          "label_ar": "ترينيداد وتوباغو"
+        },
+        {
+          "code": "TN",
+          "order": 181,
+          "label_en": "Tunisia",
+          "label_ar": "تونس"
+        },
+        {
+          "code": "TR",
+          "order": 182,
+          "label_en": "Türkiye",
+          "label_ar": "تركيا"
+        },
+        {
+          "code": "TM",
+          "order": 183,
+          "label_en": "Turkmenistan",
+          "label_ar": "تركمانستان"
+        },
+        {
+          "code": "TV",
+          "order": 184,
+          "label_en": "Tuvalu",
+          "label_ar": "توفالو"
+        },
+        {
+          "code": "UG",
+          "order": 185,
+          "label_en": "Uganda",
+          "label_ar": "أوغندا"
+        },
+        {
+          "code": "UA",
+          "order": 186,
+          "label_en": "Ukraine",
+          "label_ar": "أوكرانيا"
+        },
+        {
+          "code": "AE",
+          "order": 187,
+          "label_en": "United Arab Emirates",
+          "label_ar": "الإمارات العربية المتحدة"
+        },
+        {
+          "code": "GB",
+          "order": 188,
+          "label_en": "United Kingdom",
+          "label_ar": "المملكة المتحدة"
+        },
+        {
+          "code": "US",
+          "order": 189,
+          "label_en": "United States",
+          "label_ar": "الولايات المتحدة"
+        },
+        {
+          "code": "UY",
+          "order": 190,
+          "label_en": "Uruguay",
+          "label_ar": "أورغواي"
+        },
+        {
+          "code": "UZ",
+          "order": 191,
+          "label_en": "Uzbekistan",
+          "label_ar": "أوزبكستان"
+        },
+        {
+          "code": "VU",
+          "order": 192,
+          "label_en": "Vanuatu",
+          "label_ar": "فانواتو"
+        },
+        {
+          "code": "VE",
+          "order": 193,
+          "label_en": "Venezuela",
+          "label_ar": "فنزويلا"
+        },
+        {
+          "code": "VN",
+          "order": 194,
+          "label_en": "Vietnam",
+          "label_ar": "فيتنام"
+        },
+        {
+          "code": "YE",
+          "order": 195,
+          "label_en": "Yemen",
+          "label_ar": "اليمن"
+        },
+        {
+          "code": "ZM",
+          "order": 196,
+          "label_en": "Zambia",
+          "label_ar": "زامبيا"
+        },
+        {
+          "code": "ZW",
+          "order": 197,
+          "label_en": "Zimbabwe",
+          "label_ar": "زيمبابوي"
+        }
+      ]
+    },
+    {
+      "code": "linkedin",
+      "type": "url",
+      "screen": "details",
+      "order": 7,
+      "required": false,
+      "max_select": null,
+      "has_other": false,
+      "label_en": "Your LinkedIn or professional profile",
+      "label_ar": "حسابك على لينكدإن أو ملفك المهني",
+      "help_en": "A link is enough, if you have one.",
+      "help_ar": "يكفي الرابط، إن وُجد.",
+      "options": []
+    },
+    {
+      "code": "years_experience",
+      "type": "single",
+      "screen": "standing",
+      "order": 8,
+      "required": true,
+      "max_select": null,
+      "has_other": false,
+      "label_en": "Years of professional experience",
+      "label_ar": "سنوات الخبرة المهنية",
+      "help_en": "",
+      "help_ar": "",
+      "options": [
+        {
+          "code": "lt15",
+          "order": 0,
+          "label_en": "Under 15 years",
+          "label_ar": "أقل من 15 سنة"
+        },
+        {
+          "code": "15_20",
+          "order": 1,
+          "label_en": "15 to 20 years",
+          "label_ar": "من 15 إلى 20 سنة"
+        },
+        {
+          "code": "20_25",
+          "order": 2,
+          "label_en": "20 to 25 years",
+          "label_ar": "من 20 إلى 25 سنة"
+        },
+        {
+          "code": "25_30",
+          "order": 3,
+          "label_en": "25 to 30 years",
+          "label_ar": "من 25 إلى 30 سنة"
+        },
+        {
+          "code": "gt30",
+          "order": 4,
+          "label_en": "More than 30 years",
+          "label_ar": "أكثر من 30 سنة"
+        }
+      ]
+    },
+    {
+      "code": "current_status",
+      "type": "multi",
+      "screen": "standing",
+      "order": 9,
+      "required": true,
+      "max_select": null,
+      "has_other": false,
+      "label_en": "Which best describes you today",
+      "label_ar": "ما الذي يصفك اليوم",
+      "help_en": "Choose any that apply.",
+      "help_ar": "اختر ما ينطبق.",
+      "options": [
+        {
+          "code": "serving_ceo",
+          "order": 0,
+          "label_en": "A serving chief executive or president",
+          "label_ar": "رئيس تنفيذي أو رئيس حالي"
+        },
+        {
+          "code": "serving_csuite",
+          "order": 1,
+          "label_en": "A serving C-suite executive (CxO)",
+          "label_ar": "تنفيذي في الإدارة العليا (CxO) حالياً"
+        },
+        {
+          "code": "chair_board",
+          "order": 2,
+          "label_en": "A chairman or board member",
+          "label_ar": "رئيس أو عضو مجلس إدارة"
+        },
+        {
+          "code": "gov_leader",
+          "order": 3,
+          "label_en": "A senior government or public-sector leader",
+          "label_ar": "قيادي حكومي أو في القطاع العام"
+        },
+        {
+          "code": "former_exec",
+          "order": 4,
+          "label_en": "A former executive, now advising or investing",
+          "label_ar": "تنفيذي سابق، يعمل الآن في الاستشارة أو الاستثمار"
+        },
+        {
+          "code": "prof_services",
+          "order": 5,
+          "label_en": "A managing partner or leader in professional services (consulting, law, audit)",
+          "label_ar": "شريك إداري أو قيادي في الخدمات المهنية (استشارات، قانون، تدقيق)"
+        },
+        {
+          "code": "founder",
+          "order": 6,
+          "label_en": "A founder or business owner",
+          "label_ar": "مؤسس أو صاحب عمل"
+        },
+        {
+          "code": "investor",
+          "order": 7,
+          "label_en": "An investor, fund manager or family-office principal",
+          "label_ar": "مستثمر أو مدير صندوق أو مسؤول مكتب عائلي"
+        },
+        {
+          "code": "independent_authority",
+          "order": 8,
+          "label_en": "An independent advisor or recognised sector authority",
+          "label_ar": "مستشار مستقل أو مرجع قطاعي معروف"
+        }
+      ]
+    },
+    {
+      "code": "seniority_reached",
+      "type": "single",
+      "screen": "standing",
+      "order": 10,
+      "required": true,
+      "max_select": null,
+      "has_other": false,
+      "label_en": "The highest level of seniority you have reached",
+      "label_ar": "أعلى منصب وصلت إليه",
+      "help_en": "",
+      "help_ar": "",
+      "options": [
+        {
+          "code": "minister",
+          "order": 0,
+          "label_en": "Minister, deputy minister or authority governor",
+          "label_ar": "وزير أو نائب وزير أو محافظ هيئة"
+        },
+        {
+          "code": "chair",
+          "order": 1,
+          "label_en": "Chairman or board member",
+          "label_ar": "رئيس أو عضو مجلس إدارة"
+        },
+        {
+          "code": "ceo",
+          "order": 2,
+          "label_en": "CEO or President",
+          "label_ar": "رئيس تنفيذي أو رئيس"
+        },
+        {
+          "code": "csuite",
+          "order": 3,
+          "label_en": "C-suite executive (CxO)",
+          "label_ar": "تنفيذي في الإدارة العليا (CxO)"
+        },
+        {
+          "code": "md_partner",
+          "order": 4,
+          "label_en": "Managing Director or Partner",
+          "label_ar": "عضو منتدب أو شريك"
+        },
+        {
+          "code": "vp_gm",
+          "order": 5,
+          "label_en": "Vice President or General Manager",
+          "label_ar": "نائب رئيس أو مدير عام"
+        },
+        {
+          "code": "director",
+          "order": 6,
+          "label_en": "Senior Director or Head of function",
+          "label_ar": "مدير أول أو رئيس إدارة"
+        }
+      ]
+    },
+    {
+      "code": "title",
+      "type": "text",
+      "screen": "standing",
+      "order": 11,
+      "required": true,
+      "max_select": null,
+      "has_other": false,
+      "label_en": "Your current or most recent title",
+      "label_ar": "منصبك الحالي أو الأخير",
+      "help_en": "Whichever best reflects your standing.",
+      "help_ar": "ما يعكس مكانتك على أفضل وجه.",
+      "options": []
+    },
+    {
+      "code": "work_status",
+      "type": "single",
+      "screen": "standing",
+      "order": 12,
+      "required": true,
+      "max_select": null,
+      "has_other": false,
+      "label_en": "Your current standing",
+      "label_ar": "وضعك الحالي",
+      "help_en": "",
+      "help_ar": "",
+      "options": [
+        {
+          "code": "within",
+          "order": 0,
+          "label_en": "Within an institution",
+          "label_ar": "ضمن مؤسسة"
+        },
+        {
+          "code": "independent",
+          "order": 1,
+          "label_en": "Working independently",
+          "label_ar": "أعمل بشكل مستقل"
+        }
+      ]
+    },
+    {
+      "code": "institution",
+      "type": "text",
+      "screen": "standing",
+      "order": 13,
+      "required": true,
+      "max_select": null,
+      "has_other": false,
+      "label_en": "Your institution",
+      "label_ar": "مؤسستك",
+      "help_en": "",
+      "help_ar": "",
+      "options": []
+    },
+    {
+      "code": "qualification",
+      "type": "single",
+      "screen": "standing",
+      "order": 14,
+      "required": true,
+      "max_select": null,
+      "has_other": false,
+      "label_en": "Highest academic qualification",
+      "label_ar": "أعلى مؤهل علمي",
+      "help_en": "",
+      "help_ar": "",
+      "options": [
+        {
+          "code": "phd",
+          "order": 0,
+          "label_en": "Doctorate (PhD)",
+          "label_ar": "دكتوراه"
+        },
+        {
+          "code": "masters",
+          "order": 1,
+          "label_en": "Master's degree",
+          "label_ar": "ماجستير"
+        },
+        {
+          "code": "bachelors",
+          "order": 2,
+          "label_en": "Bachelor's degree",
+          "label_ar": "بكالوريوس"
+        },
+        {
+          "code": "professional",
+          "order": 3,
+          "label_en": "Professional qualification or fellowship",
+          "label_ar": "مؤهل مهني أو زمالة"
+        },
+        {
+          "code": "other",
+          "order": 4,
+          "label_en": "Other",
+          "label_ar": "أخرى"
+        }
+      ]
+    },
+    {
+      "code": "expertise_areas",
+      "type": "multi",
+      "screen": "expertise",
+      "order": 15,
+      "required": true,
+      "max_select": 4,
+      "has_other": true,
+      "label_en": "Your principal areas of expertise",
+      "label_ar": "أبرز مجالات خبرتك",
+      "help_en": "Choose up to four.",
+      "help_ar": "اختر حتى أربعة.",
+      "options": [
+        {
+          "code": "strategy_growth",
+          "order": 0,
+          "label_en": "Corporate strategy and growth",
+          "label_ar": "استراتيجية الشركات والنمو"
+        },
+        {
+          "code": "turnaround",
+          "order": 1,
+          "label_en": "Turnaround and performance improvement",
+          "label_ar": "معالجة التعثّر وتحسين الأداء"
+        },
+        {
+          "code": "grc",
+          "order": 2,
+          "label_en": "Governance, risk and compliance",
+          "label_ar": "الحوكمة وإدارة المخاطر والامتثال"
+        },
+        {
+          "code": "ma",
+          "order": 3,
+          "label_en": "Mergers, acquisitions and restructuring",
+          "label_ar": "الاندماج والاستحواذ وإعادة الهيكلة"
+        },
+        {
+          "code": "investment",
+          "order": 4,
+          "label_en": "Investment and capital raising",
+          "label_ar": "الاستثمار وجمع رأس المال"
+        },
+        {
+          "code": "digital",
+          "order": 5,
+          "label_en": "Digital transformation",
+          "label_ar": "التحول الرقمي"
+        },
+        {
+          "code": "ai_data",
+          "order": 6,
+          "label_en": "Artificial intelligence and data",
+          "label_ar": "الذكاء الاصطناعي والبيانات"
+        },
+        {
+          "code": "tech_cyber",
+          "order": 7,
+          "label_en": "Technology, cloud and cybersecurity",
+          "label_ar": "التقنية والحوسبة السحابية والأمن السيبراني"
+        },
+        {
+          "code": "legal_policy",
+          "order": 8,
+          "label_en": "Legal, regulatory and public policy",
+          "label_ar": "الشؤون القانونية والتنظيمية والسياسات العامة"
+        },
+        {
+          "code": "family_business",
+          "order": 9,
+          "label_en": "Family business governance and succession",
+          "label_ar": "حوكمة الأعمال العائلية والتعاقب"
+        },
+        {
+          "code": "entrepreneurship",
+          "order": 10,
+          "label_en": "Entrepreneurship and venture building",
+          "label_ar": "ريادة الأعمال وبناء المشاريع"
+        },
+        {
+          "code": "ops_delivery",
+          "order": 11,
+          "label_en": "Operations, project and programme delivery",
+          "label_ar": "العمليات وإدارة المشاريع والبرامج"
+        },
+        {
+          "code": "human_capital",
+          "order": 12,
+          "label_en": "Human capital and organisational design",
+          "label_ar": "رأس المال البشري والتصميم المؤسسي"
+        },
+        {
+          "code": "marketing",
+          "order": 13,
+          "label_en": "Marketing, brand and commercial growth",
+          "label_ar": "التسويق والعلامة والنمو التجاري"
+        },
+        {
+          "code": "finance",
+          "order": 14,
+          "label_en": "Finance, accounting and assurance",
+          "label_ar": "المالية والمحاسبة والتدقيق"
+        },
+        {
+          "code": "esg",
+          "order": 15,
+          "label_en": "Sustainability and ESG",
+          "label_ar": "الاستدامة والحوكمة البيئية والاجتماعية"
+        },
+        {
+          "code": "other",
+          "order": 16,
+          "label_en": "Other (please specify)",
+          "label_ar": "أخرى (يرجى التحديد)"
+        }
+      ]
+    },
+    {
+      "code": "sectors",
+      "type": "multi",
+      "screen": "expertise",
+      "order": 16,
+      "required": true,
+      "max_select": 4,
+      "has_other": true,
+      "label_en": "Sectors where you have real depth",
+      "label_ar": "القطاعات التي تملك فيها خبرة حقيقية",
+      "help_en": "Choose up to four.",
+      "help_ar": "اختر حتى أربعة.",
+      "options": [
+        {
+          "code": "energy",
+          "order": 0,
+          "label_en": "Energy, petrochemicals and utilities",
+          "label_ar": "الطاقة والبتروكيماويات والمرافق"
+        },
+        {
+          "code": "mining",
+          "order": 1,
+          "label_en": "Mining and metals",
+          "label_ar": "التعدين والمعادن"
+        },
+        {
+          "code": "banking",
+          "order": 2,
+          "label_en": "Banking and financial services",
+          "label_ar": "البنوك والخدمات المالية"
+        },
+        {
+          "code": "capital_markets",
+          "order": 3,
+          "label_en": "Capital markets and investment",
+          "label_ar": "أسواق المال والاستثمار"
+        },
+        {
+          "code": "real_estate",
+          "order": 4,
+          "label_en": "Real estate, construction and giga-projects",
+          "label_ar": "العقار والإنشاءات والمشاريع الكبرى"
+        },
+        {
+          "code": "tourism",
+          "order": 5,
+          "label_en": "Tourism and hospitality",
+          "label_ar": "السياحة والضيافة"
+        },
+        {
+          "code": "sport_ent",
+          "order": 6,
+          "label_en": "Sport, entertainment and culture",
+          "label_ar": "الرياضة والترفيه والثقافة"
+        },
+        {
+          "code": "health",
+          "order": 7,
+          "label_en": "Healthcare and life sciences",
+          "label_ar": "الرعاية الصحية وعلوم الحياة"
+        },
+        {
+          "code": "education",
+          "order": 8,
+          "label_en": "Education, training and research",
+          "label_ar": "التعليم والتدريب والبحث"
+        },
+        {
+          "code": "telecom",
+          "order": 9,
+          "label_en": "Telecommunications",
+          "label_ar": "الاتصالات"
+        },
+        {
+          "code": "transport",
+          "order": 10,
+          "label_en": "Transport, logistics and aviation",
+          "label_ar": "النقل والخدمات اللوجستية والطيران"
+        },
+        {
+          "code": "manufacturing",
+          "order": 11,
+          "label_en": "Manufacturing and industrial development",
+          "label_ar": "الصناعة والتطوير الصناعي"
+        },
+        {
+          "code": "retail",
+          "order": 12,
+          "label_en": "Retail, consumer goods and e-commerce",
+          "label_ar": "التجزئة والسلع الاستهلاكية والتجارة الإلكترونية"
+        },
+        {
+          "code": "food_agri",
+          "order": 13,
+          "label_en": "Food security and agriculture",
+          "label_ar": "الأمن الغذائي والزراعة"
+        },
+        {
+          "code": "defence",
+          "order": 14,
+          "label_en": "Defence and military industries",
+          "label_ar": "الدفاع والصناعات العسكرية"
+        },
+        {
+          "code": "government",
+          "order": 15,
+          "label_en": "Government and the public sector",
+          "label_ar": "الحكومة والقطاع العام"
+        },
+        {
+          "code": "family_holdings",
+          "order": 16,
+          "label_en": "Family businesses and holding groups",
+          "label_ar": "الأعمال العائلية والمجموعات القابضة"
+        },
+        {
+          "code": "nonprofit",
+          "order": 17,
+          "label_en": "Non-profit, endowments and the third sector",
+          "label_ar": "القطاع غير الربحي والأوقاف والقطاع الثالث"
+        },
+        {
+          "code": "other",
+          "order": 18,
+          "label_en": "Other (please specify)",
+          "label_ar": "أخرى (يرجى التحديد)"
+        }
+      ]
+    },
+    {
+      "code": "vision_themes",
+      "type": "multi",
+      "screen": "expertise",
+      "order": 17,
+      "required": false,
+      "max_select": null,
+      "has_other": true,
+      "label_en": "Vision 2030 themes you have worked within",
+      "label_ar": "محاور رؤية 2030 التي عملت ضمنها",
+      "help_en": "Choose any that apply.",
+      "help_ar": "اختر ما ينطبق.",
+      "options": [
+        {
+          "code": "giga",
+          "order": 0,
+          "label_en": "Giga-projects and national infrastructure",
+          "label_ar": "المشاريع الكبرى والبنية التحتية الوطنية"
+        },
+        {
+          "code": "privatisation",
+          "order": 1,
+          "label_en": "Privatisation and PPP",
+          "label_ar": "الخصخصة والشراكة بين القطاعين"
+        },
+        {
+          "code": "gov_digital",
+          "order": 2,
+          "label_en": "Public-sector transformation and digital government",
+          "label_ar": "تحول القطاع العام والحكومة الرقمية"
+        },
+        {
+          "code": "financial_dev",
+          "order": 3,
+          "label_en": "Financial sector and capital-market development",
+          "label_ar": "تطوير القطاع المالي وأسواق المال"
+        },
+        {
+          "code": "tourism_sport",
+          "order": 4,
+          "label_en": "Tourism, sport and entertainment",
+          "label_ar": "السياحة والرياضة والترفيه"
+        },
+        {
+          "code": "industrial",
+          "order": 5,
+          "label_en": "Industrial development and local content",
+          "label_ar": "التنمية الصناعية والمحتوى المحلي"
+        },
+        {
+          "code": "sme",
+          "order": 6,
+          "label_en": "SME growth and entrepreneurship",
+          "label_ar": "نمو المنشآت الصغيرة والمتوسطة وريادة الأعمال"
+        },
+        {
+          "code": "energy_esg",
+          "order": 7,
+          "label_en": "Energy transition, sustainability and ESG",
+          "label_ar": "تحول الطاقة والاستدامة"
+        },
+        {
+          "code": "quality_life",
+          "order": 8,
+          "label_en": "Health, education and quality of life",
+          "label_ar": "الصحة والتعليم وجودة الحياة"
+        },
+        {
+          "code": "other",
+          "order": 9,
+          "label_en": "Other (please specify)",
+          "label_ar": "أخرى (يرجى التحديد)"
+        }
+      ]
+    },
+    {
+      "code": "institutions",
+      "type": "multi",
+      "screen": "reach",
+      "order": 18,
+      "required": true,
+      "max_select": null,
+      "has_other": false,
+      "label_en": "The institutions you are connected to",
+      "label_ar": "المنشآت التي تربطك بها علاقات",
+      "help_en": "Choose any that apply.",
+      "help_ar": "اختر ما ينطبق.",
+      "options": [
+        {
+          "code": "gov",
+          "order": 0,
+          "label_en": "Government ministries and authorities",
+          "label_ar": "الوزارات والجهات الحكومية"
+        },
+        {
+          "code": "sovereign",
+          "order": 1,
+          "label_en": "Sovereign funds and PIF-linked entities",
+          "label_ar": "الصناديق السيادية والجهات المرتبطة بصندوق الاستثمارات العامة"
+        },
+        {
+          "code": "family_business",
+          "order": 2,
+          "label_en": "Major family businesses and holding groups",
+          "label_ar": "كبرى الأعمال العائلية والمجموعات القابضة"
+        },
+        {
+          "code": "corporates",
+          "order": 3,
+          "label_en": "Large private corporations",
+          "label_ar": "الشركات الخاصة الكبرى"
+        },
+        {
+          "code": "banks",
+          "order": 4,
+          "label_en": "Banks and financial institutions",
+          "label_ar": "البنوك والمؤسسات المالية"
+        },
+        {
+          "code": "investors",
+          "order": 5,
+          "label_en": "Investors and family offices",
+          "label_ar": "المستثمرون والمكاتب العائلية"
+        },
+        {
+          "code": "startups",
+          "order": 6,
+          "label_en": "The startup and venture ecosystem",
+          "label_ar": "منظومة الشركات الناشئة والمشاريع"
+        },
+        {
+          "code": "regulators",
+          "order": 7,
+          "label_en": "Regulators and standards bodies",
+          "label_ar": "الجهات التنظيمية وهيئات المعايير"
+        }
+      ]
+    },
+    {
+      "code": "relationship_nature",
+      "type": "multi",
+      "screen": "reach",
+      "order": 19,
+      "required": true,
+      "max_select": 3,
+      "has_other": false,
+      "label_en": "The nature of your relationships in these institutions",
+      "label_ar": "طبيعة علاقاتك داخل هذه المنشآت",
+      "help_en": "Choose up to three.",
+      "help_ar": "اختر حتى ثلاثة.",
+      "options": [
+        {
+          "code": "senior_personal",
+          "order": 0,
+          "label_en": "Personal, at the most senior level",
+          "label_ar": "شخصية، على أعلى مستوى"
+        },
+        {
+          "code": "exec_direct",
+          "order": 1,
+          "label_en": "Direct, at executive level",
+          "label_ar": "مباشرة، على المستوى التنفيذي"
+        },
+        {
+          "code": "strong_prof",
+          "order": 2,
+          "label_en": "Strong and professional",
+          "label_ar": "قوية ومهنية"
+        },
+        {
+          "code": "introductions",
+          "order": 3,
+          "label_en": "Through trusted introductions",
+          "label_ar": "عبر تعريفات موثوقة"
+        },
+        {
+          "code": "sector_specific",
+          "order": 4,
+          "label_en": "Specific to certain sectors",
+          "label_ar": "محصورة في قطاعات معيّنة"
+        },
+        {
+          "code": "advisory",
+          "order": 5,
+          "label_en": "More advisory than direct",
+          "label_ar": "استشارية أكثر منها مباشرة"
+        }
+      ]
+    },
+    {
+      "code": "reach_geographies",
+      "type": "multi",
+      "screen": "reach",
+      "order": 20,
+      "required": true,
+      "max_select": null,
+      "has_other": false,
+      "label_en": "Where your relationships are strongest",
+      "label_ar": "أين تتركّز علاقاتك الأقوى",
+      "help_en": "Choose any that apply.",
+      "help_ar": "اختر ما ينطبق.",
+      "options": [
+        {
+          "code": "ksa",
+          "order": 0,
+          "label_en": "Saudi Arabia",
+          "label_ar": "المملكة العربية السعودية"
+        },
+        {
+          "code": "gcc",
+          "order": 1,
+          "label_en": "The GCC",
+          "label_ar": "دول الخليج"
+        },
+        {
+          "code": "mena",
+          "order": 2,
+          "label_en": "Wider MENA",
+          "label_ar": "الشرق الأوسط وشمال أفريقيا"
+        },
+        {
+          "code": "intl",
+          "order": 3,
+          "label_en": "International",
+          "label_ar": "دولية"
+        }
+      ]
+    },
+    {
+      "code": "access_readiness",
+      "type": "single",
+      "screen": "reach",
+      "order": 21,
+      "required": true,
+      "max_select": null,
+      "has_other": false,
+      "label_en": "How readily you would draw on these relationships",
+      "label_ar": "إلى أي مدى تستعدّ للاستفادة من هذه العلاقات",
+      "help_en": "",
+      "help_ar": "",
+      "options": [
+        {
+          "code": "freely",
+          "order": 0,
+          "label_en": "Freely, where it serves",
+          "label_ar": "بحرية، حيثما يكون مناسباً"
+        },
+        {
+          "code": "selectively",
+          "order": 1,
+          "label_en": "Selectively and with discretion",
+          "label_ar": "بانتقائية وتحفّظ"
+        },
+        {
+          "code": "firm_involved",
+          "order": 2,
+          "label_en": "Only with the firm's involvement",
+          "label_ar": "فقط بمشاركة الشركة"
+        }
+      ]
+    },
+    {
+      "code": "appeals",
+      "type": "ordered",
+      "screen": "draws",
+      "order": 22,
+      "required": true,
+      "max_select": null,
+      "has_other": false,
+      "label_en": "What draws you to B&P House",
+      "label_ar": "ما الذي يجذبك إلى B&P House",
+      "help_en": "Place them in the order that matters most to you.",
+      "help_ar": "رتّبها حسب الأهم لديك.",
+      "options": [
+        {
+          "code": "standing",
+          "order": 0,
+          "label_en": "The standing of a trusted institutional platform",
+          "label_ar": "مكانة منصّة مؤسسية موثوقة"
+        },
+        {
+          "code": "access",
+          "order": 1,
+          "label_en": "Access to mandates and relationships worthy of your experience",
+          "label_ar": "الوصول إلى تكليفات وعلاقات تليق بخبرتك"
+        },
+        {
+          "code": "infrastructure",
+          "order": 2,
+          "label_en": "The team and infrastructure behind every engagement",
+          "label_ar": "الفريق والإسناد خلف كل مهمة"
+        },
+        {
+          "code": "sector_build",
+          "order": 3,
+          "label_en": "The opportunity to shape a sector and build lasting work",
+          "label_ar": "فرصة تطوير قطاع وبناء أثر باقٍ"
+        },
+        {
+          "code": "peers",
+          "order": 4,
+          "label_en": "The company of a selective circle of peers",
+          "label_ar": "صحبة نخبة من النظراء"
+        },
+        {
+          "code": "recognition",
+          "order": 5,
+          "label_en": "Fair recognition for the value you create",
+          "label_ar": "تقدير عادل لما تقدّمه من قيمة"
+        }
+      ]
+    },
+    {
+      "code": "contribution",
+      "type": "multi",
+      "screen": "draws",
+      "order": 23,
+      "required": true,
+      "max_select": 4,
+      "has_other": false,
+      "label_en": "How you would prefer to take part",
+      "label_ar": "كيف تفضّل أن تشارك",
+      "help_en": "Choose up to four.",
+      "help_ar": "اختر حتى أربعة.",
+      "options": [
+        {
+          "code": "counsel",
+          "order": 0,
+          "label_en": "Offering counsel where my expertise applies",
+          "label_ar": "تقديم المشورة في مجال خبرتي"
+        },
+        {
+          "code": "delivery",
+          "order": 1,
+          "label_en": "Leading or overseeing delivery",
+          "label_ar": "قيادة التنفيذ أو الإشراف عليه"
+        },
+        {
+          "code": "sector",
+          "order": 2,
+          "label_en": "Leading a sector practice",
+          "label_ar": "قيادة ممارسة قطاعية"
+        },
+        {
+          "code": "offerings",
+          "order": 3,
+          "label_en": "Shaping new offerings and methodologies",
+          "label_ar": "تطوير حلول ومنهجيات جديدة"
+        },
+        {
+          "code": "ventures",
+          "order": 4,
+          "label_en": "Bringing ventures or capital",
+          "label_ar": "جلب مشاريع أو رأس مال"
+        },
+        {
+          "code": "mandate",
+          "order": 5,
+          "label_en": "Taking on a defined strategic mandate",
+          "label_ar": "تولّي تكليف استراتيجي محدد"
+        },
+        {
+          "code": "represent",
+          "order": 6,
+          "label_en": "Representing B&P House as a Senior Partner",
+          "label_ar": "تمثيل B&P House بصفتي شريكاً أول"
+        },
+        {
+          "code": "relationships",
+          "order": 7,
+          "label_en": "Bringing the right people together from my network",
+          "label_ar": "جمع الأشخاص المناسبين من شبكة علاقاتي"
+        }
+      ]
+    },
+    {
+      "code": "availability",
+      "type": "single",
+      "screen": "draws",
+      "order": 24,
+      "required": true,
+      "max_select": null,
+      "has_other": false,
+      "label_en": "The time you imagine giving",
+      "label_ar": "الوقت الذي تتصوّر منحه",
+      "help_en": "",
+      "help_ar": "",
+      "options": [
+        {
+          "code": "few_hours",
+          "order": 0,
+          "label_en": "A few hours a month",
+          "label_ar": "ساعات قليلة شهرياً"
+        },
+        {
+          "code": "few_days",
+          "order": 1,
+          "label_en": "A few days a month",
+          "label_ar": "أيام قليلة شهرياً"
+        },
+        {
+          "code": "most_weeks",
+          "order": 2,
+          "label_en": "Part of most weeks",
+          "label_ar": "جزء من معظم الأسابيع"
+        },
+        {
+          "code": "substantial",
+          "order": 3,
+          "label_en": "A substantial, ongoing commitment",
+          "label_ar": "التزام كبير ومستمر"
+        }
+      ]
+    },
+    {
+      "code": "horizon",
+      "type": "single",
+      "screen": "draws",
+      "order": 25,
+      "required": true,
+      "max_select": null,
+      "has_other": false,
+      "label_en": "The horizon you have in mind",
+      "label_ar": "الأفق الذي تفكّر فيه",
+      "help_en": "",
+      "help_ar": "",
+      "options": [
+        {
+          "code": "long_term",
+          "order": 0,
+          "label_en": "A long-term institutional relationship",
+          "label_ar": "علاقة مؤسسية طويلة الأمد"
+        },
+        {
+          "code": "open",
+          "order": 1,
+          "label_en": "An open-ended exploration",
+          "label_ar": "استكشاف مفتوح"
+        },
+        {
+          "code": "specific",
+          "order": 2,
+          "label_en": "Specific opportunities, as they arise",
+          "label_ar": "فرص محددة، عند ظهورها"
+        }
+      ]
+    },
+    {
+      "code": "readiness",
+      "type": "single",
+      "screen": "draws",
+      "order": 26,
+      "required": true,
+      "max_select": null,
+      "has_other": false,
+      "label_en": "How soon you could begin",
+      "label_ar": "متى يمكنك البدء",
+      "help_en": "",
+      "help_ar": "",
+      "options": [
+        {
+          "code": "now",
+          "order": 0,
+          "label_en": "I am willing to start now",
+          "label_ar": "أنا على استعداد للبدء الآن"
+        },
+        {
+          "code": "months",
+          "order": 1,
+          "label_en": "Within a few months",
+          "label_ar": "خلال أشهر قليلة"
+        },
+        {
+          "code": "exploring",
+          "order": 2,
+          "label_en": "Exploring for now",
+          "label_ar": "في مرحلة الاستكشاف حالياً"
+        }
+      ]
+    },
+    {
+      "code": "closing_remarks",
+      "type": "text",
+      "screen": "closing",
+      "order": 27,
+      "required": false,
+      "max_select": null,
+      "has_other": false,
+      "label_en": "Would you like to highlight any last remarks before the next conversation?",
+      "label_ar": "هل تودّ إضافة أي ملاحظات أخيرة قبل المحادثة القادمة؟",
+      "help_en": "Keep it empty if all is well.",
+      "help_ar": "اتركها فارغة إن لم يكن لديك ما تضيفه.",
+      "options": []
+    }
+  ],
+  "acknowledgments": [
+    {
+      "key": "ack_intro",
+      "en": "I understand this is an introduction, and that it carries no obligation on either side at this stage.",
+      "ar": "أُدرك أن هذا تعريف أوّلي لا يترتّب عليه أي التزام على أي من الطرفين في هذه المرحلة."
+    },
+    {
+      "key": "ack_consent",
+      "en": "I am content for Bisher & Partners to hold what I have shared, in confidence, for the purpose of this introduction.",
+      "ar": "لا مانع لديّ من احتفاظ بشر وشركاؤه بما شاركته، بسرّية، لغرض هذا التعريف."
+    }
+  ]
+}
